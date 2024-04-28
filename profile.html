@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-Fakebook</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body> 
+    <!-- Start Menu Section -->
+ <nav>
+    <div class="nav-left">
+        <a href="./index.html">
+        <img src="./images/logo.png" alt="" srcset="" class="logo">
+        </a>
+        <ul>
+            <li><img src="./images/notification.png" alt="" srcset=""></li>
+            <li><img src="./images/inbox.png" alt="" srcset=""></li>
+            <li><img src="./images/video.png" alt="" srcset=""></li>
+        </ul>
+    </div>
+    <div class="nav-right">
+<div class="search-box">
+    <img src="./images/search.png" alt="">
+    <input type="text" placeholder="Search">
+</div>
+<div class="nav-user-icon online" onclick = "settingMenuToggle()">
+    <img src="./images/profile-pic.png" alt="">
+</div>
+    </div>
+
+    <!-- setting menu bar -->
+
+    <div class="setting-menu">
+
+        <div id="dark-btn">
+            <span></span>
+        </div>
+
+        <div class="setting-menu-inner">
+            <div class="user-profile">
+                <img src="./images/profile-pic.png" alt="">
+                <div>
+                    <p>John Nicholson</p>
+                  <a href="./profile.html">See Your Profile</a>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="user-profile">
+                <img src="./images/feedback.png" alt="">
+                <div>
+                    <p>Give FeedBack</p>
+                  <a href="#">Help us the improve new design</a>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- setting links -->
+
+           <div class="settings-links">
+            <img src="./images/setting.png" class="setting-icon">
+            <a href="#">Settings & Privacy <img src="./images/arrow.png" width="15px"></a>
+           </div>
+
+           <div class="settings-links">
+            <img src="./images/help.png" class="setting-icon">
+            <a href="#">Help & Support<img src="./images/arrow.png" width="15px"></a>
+           </div>
+
+           <div class="settings-links">
+            <img src="./images/display.png" class="setting-icon">
+            <a href="#">Display & Accessibility <img src="./images/arrow.png" width="15px"></a>
+           </div>
+
+           <div class="settings-links">
+            <img src="./images/logout.png" class="setting-icon">
+            <a href="#">Logout <img src="./images/arrow.png" width="15px"></a>
+           </div>
+
+        </div>
+    
+    </div>
+ </nav>
+
+<!-- End menu section -->
+
+<!-- profile page -->
+<div class="profile-container">
+    <img src="./images/cover.png" alt="" class="cover-img">
+
+    <div class="profile-details">
+
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="./images/profile.png" alt="" class="pd-img">
+                <div>
+                    <h3>Jack Nicholson</h3>
+                    <p>120 friends - 20Matual</p>
+                    <img src="./images/member-1.png" alt="">
+                    <img src="./images/member-2.png" alt="">
+                    <img src="./images/member-3.png" alt="">
+                    <img src="./images/member-4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="pd-right">
+
+            <button type="button"> <img src="./images/add-friends.png" alt=""> Friend</button>
+            <button type="button"> <img src="./images/message.png" alt=""> Message</button>
+
+            <br>
+            <a href="#"> <img src="./images/more.png" alt=""> </a>
+        </div>
+        
+    </div>
+
+    <div class="profile-info">
+        <div class="info-col">
+            <div class="profile-intro">
+                <h3>Inro</h3>
+                <p class="intro-text">Beleive your self and you   can do unbelievable things. <img src="./images/feeling.png" alt=""> </p>
+
+                <hr>
+
+                <ul>
+                    <li> <img src="./images/profile-job.png" alt=""> Director at 89media</li>
+                    <li> <img src="./images/profile-study.png" alt="">studied at Jamhuriya universitty</li>
+                    <li> <img src="./images/profile-study.png" alt="">Wents to New Delhi India</li>
+                    <li> <img src="./images/profile-home.png" alt="">Lives in Mogadishu,Somalia</li>
+                    <li> <img src="./images/profile-location.png" alt="">From Mogadishu, Somalia</li>
+                </ul>
+            </div>
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                <a href="#">All Photos</a>
+                </div>
+                <div class="photo-box">
+                <div><img src="./images/photo1.png" alt=""></div>
+                <div><img src="./images/photo2.png" alt=""></div>   
+                <div><img src="./images/photo3.png" alt=""></div>   
+                <div><img src="./images/photo4.png" alt=""></div>   
+                <div><img src="./images/photo5.png" alt=""></div>   
+                <div><img src="./images/photo6.png" alt=""></div>   
+                       
+                </div>
+            </div>
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                <a href="#">All Friends</a>
+                </div>
+                <p>120 (10 Matual)</p>
+                <div class="friends-box">
+                <div><img src="./images/member-1.png" alt=""><p>Maaida Herlin </p></div>
+                <div><img src="./images/member-2.png" alt=""><p>Ahmed Abdiaziiz</p></div>
+                <div><img src="./images/member-3.png" alt=""><p>Leyla Muhudiin</p></div>
+                <div><img src="./images/member-4.png" alt=""><p>Mohamed Amiin</p></div>
+                <div><img src="./images/member-5.png" alt=""><p>Samefalle Abdirahman</p></div>
+                <div><img src="./images/member-6.png" alt=""><p>Najma Mohamed</p></div>
+                <div><img src="./images/member-7.png" alt=""><p>Abdullahi Khaliif</p></div>
+                <div><img src="./images/member-8.png" alt=""><p>Adna Shariif</p></div>
+                <div><img src="./images/member-9.png" alt=""><p>Eng Azhar</p></div>
+                                   
+                </div>
+            </div> 
+
+        </div>
+        <div class="post-col">
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Puplic <i class="fas far-caret-down" ></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What is on your mind John? "></textarea>
+                    <div class="add-post-links">
+                        <a href="#"> <img src="./images/live-video.png" alt="">Live Vedio</a>
+                        <a href="#"> <img src="./images/photo.png" alt="">Photo/Vedio</a>
+                        <a href="#"> <img src="./images/feeling.png" alt="">Feeling / Active</a>
+                    </div>
+                </div>
+             </div>
+             
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/profile-pic.png" alt="">
+                <div>
+                    <p>John Nicholson</p>
+                   <span>July 24 2023 12:10Pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text">Learning web <span>development</span>  is worth while! <a href="#">#Proggramming</a></p>
+        <img src="./images/feed-image-1.png" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 1,20K</div>
+<div><img src="./images/comments.png" alt=""> 1K</div>
+<div><img src="./images/share.png" alt=""> 80</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/profile-pic.png" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/member-1.png" alt="">
+                <div>
+                    <p>Najma Mohamed</p>
+                   <span>Aug 04 2023 2:10Pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text">Learning  <span>Health Science</span>  is worth while! <a href="#">#healthy Science</a></p>
+        <img src="./images/pexels-edward-jenner-4033148.jpg" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 10K</div>
+<div><img src="./images/comments.png" alt=""> 799</div>
+<div><img src="./images/share.png" alt=""> 50</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/member-1.png" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/member-2.png" alt="">
+                <div>
+                    <p>Abdullahi Khaliif</p>
+                   <span>Oct 19 2023 9:10 am</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text">Khudbeeyayaasha dunida ugu caansani waxa ay ahaayeen dad
+            akhrisku saameeyay, oo noloshooda uu ka muuqdo. Qofka
+            qoraaga ah ee guulaysta, ama khudbeeyaha ah ee guulaystaa,
+            waa qofba qofka uu akhriskiisu ka sarreeyo. Bal Abraham
+            Lincoln eeg, bal Nelson Madela eeg. Dadkaasi, iyo kuwo
+            kalaba, waxa ay noqdeen dad wax badan og. Qofku haddii
+            uu wax badan og yahayna, wax badan ayuu sheegi karaa.
+            Caqliyadii dunida soo maray ee iyaga ka horreeyay ayay
+            akhristayaasha wanwanaagsani ka faa'idaystaan, markaas ayaa
+            ay saameeyaan xirfaddoodii qoraal iyo toodii hadalba.
+            Haddii berigii baadiyaha, <span> akhris la'aan.
+            Akhriskii markanna waa tabobbare.
+            </span>  ninba ninka uu ka maahmaah iyo
+            gabay-xifdin badan yahay, uu aftahan ka ahaa, maanta waxa
+            hubaal ah in ninba ninka uu ka taariikh iyo ogaal badan yahay
+            uu ka aftahansan yahay. Sida oo kale waxa hubaal ah in qofina
+            aanu taariikhdaa iyo ogaalkaa helaynin,  <a href="#">#Akhriska</a></p>
+        <img src="./images/member-7.png" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 20K</div>
+<div><img src="./images/comments.png" alt=""> 1,1K</div>
+<div><img src="./images/share.png" alt=""> 800</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/member-2.png" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/8.jpg" height="45px" alt="">
+                <div>
+                    <p>Adna Shariif</p>
+                   <span> 2days ago </span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text">Learning PHP and <span>MY SQL</span>  is worth while! <a href="#">#developers</a></p>
+        <img src="./images/sss.jpg" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 1K</div>
+<div><img src="./images/comments.png" alt=""> 1.2K</div>
+<div><img src="./images/share.png" alt=""> 30</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/member-8.png" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/member-3.png" alt="">
+                <div>
+                    <p>Leyla Muhudin</p>
+                   <span>5days 12:10Pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text"><a href="#">#Model</a></p>
+        <img src="./images/zz.jpg" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 1,20K</div>
+<div><img src="./images/comments.png" alt=""> 1K</div>
+<div><img src="./images/share.png" alt=""> 80</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/member-3.png" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/photo4.png" alt="">
+                <div>
+                    <p>AbdiAziiz </p>
+                   <span>July 24 2023 12:10Pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text">Learning web <span>development</span>  is worth while! <a href="#">#Proggramming</a></p>
+        <img src="./images/photo4.png" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 1,20K</div>
+<div><img src="./images/comments.png" alt=""> 1K</div>
+<div><img src="./images/share.png" alt=""> 80</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/photo4.png" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/n.jpg" height="45px" alt="">
+                <div>
+                    <p>Maaida Queen</p>
+                   <span>July 24 2023 12:10Pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <img src="./images/member-8.png" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 1,20K</div>
+<div><img src="./images/comments.png" alt=""> 1K</div>
+<div><img src="./images/share.png" alt=""> 80</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/n.jpg" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/photo1.png" alt="">
+                <div>
+                    <p>John Nicholson</p>
+                   <span>July 24 2023 12:10Pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text">Learning web <span>development</span>  is worth while! <a href="#">#Proggramming</a></p>
+        <img src="./images/photo1.png" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 1,20K</div>
+<div><img src="./images/comments.png" alt=""> 1K</div>
+<div><img src="./images/share.png" alt=""> 80</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/photo1.png" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/photo5.png" alt="">
+                <div>
+                    <p>John Nicholson</p>
+                   <span>July 24 2023 12:10Pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text">Style <a href="#">#dress</a></p>
+        <img src="./images/photo5.png" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 1,20K</div>
+<div><img src="./images/comments.png" alt=""> 1K</div>
+<div><img src="./images/share.png" alt=""> 80</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/photo5.png" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/photo6.png" alt="">
+                <div>
+                    <p>Ahmed Mohamed</p>
+                   <span>July 24 2023 12:10Pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text">Portrorate! <a href="#">#camera</a></p>
+        <img src="./images/photo6.png" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 1,20K</div>
+<div><img src="./images/comments.png" alt=""> 1K</div>
+<div><img src="./images/share.png" alt=""> 80</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/photo6.png" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/yy.jpg" alt="">
+                <div>
+                    <p>Farxiya mohamed</p>
+                   <span>July 24 2023 12:10Pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text">Hijap! <a href="#">#clothes</a></p>
+        <img src="./images/yy.jpg" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 1,20K</div>
+<div><img src="./images/comments.png" alt=""> 1K</div>
+<div><img src="./images/share.png" alt=""> 80</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/yy.jpg" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/member-5.png" alt="">
+                <div>
+                    <p>Samefaale Abdirahman</p>
+                   <span>July 24 2023 12:10Pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text">going! <a href="#">#Travelling</a></p>
+        <img src="./images/member-5.png" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 1,20K</div>
+<div><img src="./images/comments.png" alt=""> 1K</div>
+<div><img src="./images/share.png" alt=""> 80</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/member-5.png" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+
+     </div>
+
+     <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="./images/ff.jpg" alt="">
+                <div>
+                    <p>Maryama Mohamed</p>
+                   <span>July 24 2023 12:10Pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fas fas fa-ellipsis-v" </i></i></a>
+        </div>
+   
+        <p class="post-text">Degital Marketing! <a href="#">#advertising</a></p>
+        <img src="./images/advertisement.png" class="post-img"">
+
+        <div class="post-row">
+            <div class="activtity-icons">
+<div><img src="./images/like-blue.png" alt=""> 1,20K</div>
+<div><img src="./images/comments.png" alt=""> 1K</div>
+<div><img src="./images/share.png" alt=""> 80</div>
+            </div>
+            <div class="post-profile">
+                <img src="./images/ff.jpg" alt=""> <i class="fas far fas fa-map-marked-alt"></i>
+            </div>
+        </div>
+     </div>
+
+     <button type="button" class="load-more">Load More</button>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="footer">
+    <p>Copyright 2023 - Maryama </p>
+</div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
+
+
+
+
+
